@@ -1,0 +1,8 @@
+[
+{
+    "name": "Militaristic",
+    "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+    "allyBonusUniques": ["Provides military units every ≈[15] turns"],
+    "color": [255, 0, 0]
+},
+]

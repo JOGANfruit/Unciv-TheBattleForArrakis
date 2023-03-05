@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Ancient era",
+        "researchAgreementCost": 100,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Light Infantry",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 0,
+        "startPercent": 0,
+		"embarkDefense": 8,
+        "friendBonus": {
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Militaristic": ["Provides military units every ≈[18] turns"]
+        },
+        "iconRGB": [60, 110, 240]
+    },
+	{
+        "name": "Level 2",
+        "researchAgreementCost": 200,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Light Infantry",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 12,
+        "startPercent": 15,
+        "friendBonus": {
+            "Militaristic": ["Provides military units every ≈[18] turns"]
+        },
+        "allyBonus": {
+            "Militaristic": ["Provides military units every ≈[16] turns"]
+        },
+        "iconRGB": [255, 210, 0]
+    },
+	{
+        "name": "Level 3",
+        "researchAgreementCost": 300,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Light Infantry",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 17,
+        "startPercent": 30,
+        "friendBonus": {
+            "Militaristic": ["Provides military units every ≈[16] turns"]
+        },
+        "allyBonus": {
+            "Militaristic": ["Provides military units every ≈[14] turns"]
+        },
+        "iconRGB": [233, 31, 99]
+    },
+	{
+        "name": "Level 4",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.jso
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Light Infantry",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 23,
+        "startPercent": 45,
+        "friendBonus": {
+            "Militaristic": ["Provides military units every ≈[14] turns"]
+        },
+        "allyBonus": {
+            "Militaristic": ["Provides military units every ≈[12] turns"]
+        },
+        "iconRGB": [157, 39, 176]
+    },
+	{
+        "name": "Level 5",
+        "researchAgreementCost": 500,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Light Infantry",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 26,
+        "startPercent": 60,
+        "friendBonus": {
+            "Militaristic": ["Provides military units every ≈[12] turns"]
+        },
+        "allyBonus": {
+            "Militaristic": ["Provides military units every ≈[10] turns"]
+        },
+        "iconRGB": [255, 20, 47]
+    },
+]
