@@ -10,7 +10,7 @@
    "cost": 1,
    "uniques": [
      "Indicates the capital city",
-     "Provides [1] [Human Resources]",]
+     "Provides [1] [Human Resources]"]
 },
 {
   "name": "Barracks",
@@ -48,7 +48,7 @@
       "Creates a [Refinery (Impr)] improvement on a specific tile",
       "Unsellable",
       "Never destroyed when city is captured",
-      "Provides [1] [Purified Spice]",],
+      "Provides [1] [Purified Spice]"],
   "requiredTech": "Spice Extraction"
 },
 {
@@ -182,7 +182,7 @@
       "Creates a [Starport (Impr)] improvement on a specific tile",
       "Unsellable",
       "Never destroyed when city is captured",
-      "Provides [1] [Spice Oil]",],
+      "Provides [1] [Spice Oil]"],
   "requiredTech": "Galactic Trade"
 },
 {
@@ -194,7 +194,7 @@
       "Creates a [Palace (Impr)] improvement on a specific tile",
       "Unsellable",
       "Never destroyed when city is captured",
-      "Provides [1] [Spice Oil]",],
+      "Provides [1] [Spice Oil]"],
   "requiredTech": "Superweapon"
 },
 {
