@@ -196,5 +196,13 @@
       "Never destroyed when city is captured",
       "Provides [1] [Spice Oil]",],
   "requiredTech": "Superweapon"
-}
+},
+{
+		"name": "Walls",
+		"cityStrength": 15,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Military Science",
+		"uniques": ["Destroyed when the city is captured"]
+	},
 ]
