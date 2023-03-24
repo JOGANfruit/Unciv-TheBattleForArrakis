@@ -294,11 +294,12 @@
      "range": 2,
      "cost": 800,
      "requiredTech": "Superweapon",
-     "requiredResource": "Purified Spice",
      "uniques": [
-       "Consumes [2] [Spice Oil]",
+       "Consumes [3] [Spice Oil]",
        "Can move after attacking",
-       "No defensive terrain bonus",
+       "[+100]% Strength <vs [Armored] units> <when attacking>",
+       "[+100]% Strength <vs [Mechanized Infantry] units> <when attacking>",
+       "[-100]% Strength <vs cities> <when attacking>",
        "Never appears as a Barbarian unit",
        "Only available <if [Palace (Bldn)] is constructed>"],
      "attackSound": "tankshot"
