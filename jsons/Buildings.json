@@ -6,7 +6,8 @@
    "science": 3,
    "gold": 3,
    "culture": 1,
-   "cityStrength": 2,
+   "cityStrength": 20,
+   "cityHealth": 50,
    "cost": 1,
    "uniques": [
      "Indicates the capital city",
@@ -203,6 +204,33 @@
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Military Science",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": [
+      "Never destroyed when city is captured",]
+	},
+  {
+		"name": "Turret",
+		"cityStrength": 15,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+    "requiredResource": "Power",
+		"requiredTech": "Lasers",
+		"uniques": [
+      "[+25]% Strength for cities <when attacking>",
+      "Creates a [Turret (Impr)] improvement on a specific tile",
+      "Never destroyed when city is captured",
+    ]
+	},
+  {
+		"name": "Rocket Turret",
+		"cityStrength": 15,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+    "requiredResource": "Power",
+		"requiredBuilding": "Turret",
+		"requiredTech": "Super-Heavy Vehicles",
+		"uniques": [
+      "[+50]% Strength for cities <when attacking>",
+      "Creates a [Rocket Turret (Impr)] improvement on a specific tile",
+      "Never destroyed when city is captured",]
 	},
 ]

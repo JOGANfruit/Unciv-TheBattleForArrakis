@@ -47,7 +47,7 @@
   //Luxury
   {
     "name": "Bones",
-		"resourceType": "Luxury",
+		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Desert"],
 		"gold": 2,
 		"improvement": "Bone Carver",
@@ -56,7 +56,7 @@
   },
   {
     "name": "Water",
-		"resourceType": "Luxury",
+		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Desert"],
 		"food": 2,
 		"improvement": "Water Well",

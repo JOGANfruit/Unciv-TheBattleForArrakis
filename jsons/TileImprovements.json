@@ -9,6 +9,12 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Unbuildable"]
 },
+{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
 ////////////////////////////////////////////////////////////////
 // Resource-specific
 {
@@ -54,7 +60,6 @@
 	"production": 1,
 	"uniques": [
 "Great Improvement",
-"Removes removable features when built",
 "Pillaging this improvement yields approximately [+20 Gold]",
 "[+2 Gold] for each adjacent [Spice]",
 ]
@@ -66,7 +71,6 @@
 	"techRequired": "Wind Power",
   "uniques": [
 "Great Improvement",
-"Removes removable features when built",
 "Pillaging this improvement yields approximately [+20 Gold]",
 "[+1 Production] for each adjacent [Dunes]"]
 },
@@ -125,7 +129,6 @@
 	"production": 1,
 	"uniques": [
 "Great Improvement",
-"Removes removable features when built",
 "Pillaging this improvement yields approximately [+20 Gold]",
 "[+3 Production] for each adjacent [Mountain]",
 ]
@@ -137,7 +140,6 @@
 	"techRequired": "Heavy Vehicles",
 	"uniques": [
 "Great Improvement",
-"Removes removable features when built",
 "Pillaging this improvement yields approximately [+20 Gold]",
 "[+3 Production] for each adjacent [Mountain]",
 "[+3 Gold] for each adjacent [Spice]"
@@ -150,7 +152,6 @@
 	"techRequired": "Aircraft",
 	"uniques": [
 "Great Improvement",
-"Removes removable features when built",
 "Pillaging this improvement yields approximately [+20 Gold]",
 "[+3 Production] for each adjacent [Mountain]",
 "[+3 Gold] for each adjacent [Spice]"
@@ -164,7 +165,6 @@
 	"techRequired": "Advanced Chemistry",
 	"uniques": [
 "Great Improvement",
-"Removes removable features when built",
 "Pillaging this improvement yields approximately [+20 Gold]",
 "[+3 Production] for each adjacent [Spice]",
 ]
@@ -177,7 +177,6 @@
 	"techRequired": "Nanotechnology",
 	"uniques": [
 "Great Improvement",
-"Removes removable features when built",
 "Pillaging this improvement yields approximately [+20 Gold]",
 "[+3 Science] for each adjacent [Spice]",
 ]
@@ -189,7 +188,6 @@
 	"techRequired": "BBB",
 	"uniques": [
 "Great Improvement",
-"Removes removable features when built",
 "Pillaging this improvement yields approximately [+20 Gold]",
 ]
 },
@@ -202,7 +200,6 @@
 	"techRequired": "Galactic Trade",
 	"uniques": [
 "Great Improvement",
-"Removes removable features when built",
 "Pillaging this improvement yields approximately [+20 Gold]",
 "[+3 Gold] for each adjacent [Spice]",
 "[+3 Gold] for each adjacent [Bones]",
@@ -217,11 +214,29 @@
 	"techRequired": "Superweapon",
 	"uniques": [
 "Great Improvement",
-"Removes removable features when built",
 "Pillaging this improvement yields approximately [+20 Gold]",
 ]
 },
-
+{
+	"name": "Turret (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"uniques": [
+		"Great Improvement",
+"Gives a defensive bonus of [100]%",
+"Adjacent enemy units ending their turn take [30] damage",
+"Removes removable features when built",
+		]
+},
+{
+	"name": "Rocket Turret (Impr)",
+	"terrainsCanBeBuiltOn": ["Hill"],
+	"uniques": [
+"Great Improvement",
+"Gives a defensive bonus of [100]%",
+"Adjacent enemy units ending their turn take [60] damage",
+"Removes removable features when built",
+		]
+},
 // Others
 {
 		"name": "Cancel improvement order",

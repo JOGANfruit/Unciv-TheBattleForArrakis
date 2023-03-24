@@ -106,6 +106,7 @@
         "[+25]% Strength <when attacking>",
         "[+100]% to Flank Attack bonuses",
         "Invisible to non-adjacent units",
+        "May enter foreign tiles without open borders",
         "Can move after attacking",
         "Ignores Zone of Control",
         "Never appears as a Barbarian unit",
@@ -193,7 +194,7 @@
   		"unitType": "Siege",
   		"movement": 2,
   		"strength": 50,
-  		"rangedStrength": 10,
+  		"rangedStrength": 50,
   		"range": 3,
   		"cost": 450,
   		"requiredTech": "Heavy Vehicles",
@@ -465,5 +466,20 @@
   		"movement": 2,
   		"uniques": ["Can build [Land] improvements on tiles"],
   		"cost": 70
-    }
+    },
+    {
+		"name": "Guild Navigator",
+		"unitType": "Civilian",
+		"movement": 1,
+		"cost": 750,
+		"requiredTech": "Galactic Trade",
+		"uniques": [
+    "Spaceship part",
+    "Consumes [25] [Spice]",
+    "Cannot be purchased",
+    "Only available <if [Starport] is constructed>",
+    "Uncapturable",
+    "Can be added to [The Spaceship] in the Capital",
+    "Limited to [1] per Civilization"]
+	  },
 ]

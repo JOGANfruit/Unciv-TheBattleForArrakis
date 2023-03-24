@@ -1,0 +1,19 @@
+[
+  {
+		"name": "Shock I",
+		"uniques": ["[+11]% Strength <when attacking>"],
+		"unitTypes": ["Light Infantry", "Heavy Troopers", "Ranged Infantry"],
+	},
+	{
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+11]% Strength <when attacking>"],
+		"unitTypes": ["Light Infantry", "Heavy Troopers", "Ranged Infantry"],
+	},
+	{
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+11]% Strength <when attacking>"],
+		"unitTypes": ["Light Infantry", "Heavy Troopers", "Ranged Infantry"],
+	},
+]
